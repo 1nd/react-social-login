@@ -3,7 +3,6 @@ const webpack = require('webpack')
 
 module.exports = {
   entry: [
-    'whatwg-fetch',
     './src/index.js'
   ],
   externals: [{
